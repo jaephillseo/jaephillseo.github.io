@@ -38,6 +38,21 @@
       #topRow h1{
         font-size:300%;
       }
+
+      .center {
+        text-align:center;
+      }
+
+      .title {
+        margin-top:100px;
+        font-size:300%;
+      }
+
+      #footer{
+        background-color:#33C1FF;
+        width:100%;
+      }
+
     </style>
   </head>
   <body>
@@ -63,7 +78,7 @@
     </div>
   </div> 
 
-  <div class="container" id="topContainer">
+  <div class="container contentContainer" id="topContainer">
 
     <div class="row">
       <div class="col-md-6 col-md-offset-3" id="topRow">
@@ -78,13 +93,41 @@
 
   </div>
 
+  <div class="container contentContainer">
+    <div class="row" class="center">
+
+      <h1 class="center title">More About Me</h1>
+      <p class="kead center">Summary</p>
+
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+      <h2>Header</h2>
+      A brief description
+      </div>
+
+
+    </div>
+  </div>
+
+  <div class="container contentContainer" id="footer">
+
+    <div class="row">
+      <h1 class="center title">Contact Me!</h1>
+
+    </div>
+
+
+  </div>
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
     <script>
-      $("#topContainer").css("height",$(window).height());
+      $(".contentContainer").css("min-height",$(window).height());
 
     </script>
   </body>
