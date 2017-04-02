@@ -1,0 +1,79 @@
+.navbar-brand{
+        font-size:1.8em;
+      }
+
+      #topContainer {
+        background-image:url("background.jpg");
+        height:400px;
+        width:100%;
+        background-size:cover;
+        /*-webkit-filter: grayscale(100%);
+        filter: grayscale(100%);*/
+
+        /* Parallex Scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #topRow{
+        margin-top:100px;
+        text-align:center;
+      }
+
+      #topRow h1{
+        font-size:300%;
+      }
+
+      .center {
+        text-align:center;
+      }
+
+      .title {
+        margin-top:30px;
+        font-size:300%;
+      }
+
+      #footer{
+        background-color:#A3D5FF;
+        width:100%;
+        padding-bottom:200px;
+      }
+
+      #middle{
+        background-color:#87BFFF;
+        width:100%;
+        padding-top: 70px;
+      }
+
+      #footerTitle{
+        margin-top:20px;
+        font-size:300%;
+      }
+
+      .image-jae{
+        display: inline-block;
+        position: relative;
+        transform: rotate(90deg);
+
+        width:300px;
+        height:300px;
+        overflow:hidden;
+        border-radius: 50%;
+
+      }
+      .image-jae img{
+        width:auto;
+        height:100%;
+        margin-left: -70px;
+      }
+
+      #aboutText{
+        margin-top:50px;
+        background-color:#ADD7F6;
+        border-radius:25px;
+        padding:20px;
+        opacity:.7;
+        
+      }
